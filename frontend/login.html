@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>WeatherMind AI Login</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<div class="login-container">
+
+
+    <h1>
+    🌦 WeatherMind AI
+    </h1>
+
+
+    <p>
+    AI Powered Weather Intelligence
+    </p>
+
+
+    <input 
+    id="username"
+    placeholder="Enter Username">
+
+
+    <input 
+    id="password"
+    type="password"
+    placeholder="Enter Password">
+
+
+    <button onclick="login()">
+
+    Login 🚀
+
+    </button>
+
+
+</div>
+
+
+
+<script>
+
+
+function login(){
+
+
+let user =
+document.getElementById("username").value;
+
+
+let pass =
+document.getElementById("password").value;
+
+
+
+if(user && pass){
+
+window.location.href =
+"index.html";
+
+}
+
+else{
+
+alert(
+"Please enter details"
+)
+
+}
+
+
+}
+
+
+</script>
+
+
+</body>
+</html>
